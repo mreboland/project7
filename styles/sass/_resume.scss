@@ -1,0 +1,140 @@
+.mainResume {
+    height: 100vh;
+}
+
+.backgroundImageResume {
+    background-image: url(../assets/Toronto1.jpg);
+    background-position: center bottom;
+}
+
+.number {
+
+    padding-top: 50px;
+    div {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.numberNav {
+    display: flex;
+    align-items: center;
+
+    p {
+        margin-bottom: 0;
+    }
+
+}
+
+.numberNav i {
+    margin-right: 20px;
+}
+
+.resumeNavMain {
+    margin-bottom: 100px;
+}
+
+.colNav {
+	display: flex;
+    justify-content: space-between;
+    
+    .navResume {
+        align-items: center;
+
+        li {
+            padding: 0 10px;
+        }
+    }
+}
+
+.rowCompetences {
+    margin-bottom: 100px;
+}
+
+.skillsMain {
+    margin-bottom: 100px;
+}
+
+.eduMain {
+    margin-bottom: 100px;
+}
+
+.navEdu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+        width: 255px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #333333;
+        justify-content: center;
+        padding: 50px 0;
+    }
+
+    .edu1,
+    .edu2,
+    .edu3 {
+        // margin-left: 30px;
+    }
+}
+
+.skills {
+    align-items: center;
+    justify-content: space-between;
+}
+.skills li {
+    max-width: 100px;
+    // margin: 0 10px;
+}
+
+.expMainNav {
+    margin-bottom: 50px;
+}
+
+.colExperiencesNav {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        align-items: center;
+    }
+}
+
+
+.roles {
+    justify-content: space-between;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        background-color: #333333;
+    }
+}
+
+.jobTitle {
+    display: flex;
+
+    div {
+        margin-left: 10px;
+    }
+}
+
+.skillsMain div,
+.eduMain .title {
+    margin-bottom: 50px;
+}
+
+.footerResume {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    .follow {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}

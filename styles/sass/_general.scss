@@ -1,0 +1,86 @@
+
+    // font-family: 'Open Sans', sans-serif;
+
+    // font-family: 'Signika Negative', sans-serif;
+
+    /* CSS */
+// .{
+//     background: #ffffff;
+// }
+// .{
+//     background: #333333;
+// }
+// .{
+//     background: #f7531d;
+// }
+// .{
+//     background: #e69c37;
+// }
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 2rem;
+    color: $text-color-main;
+}
+
+button {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.bodyMain {
+    border: 5px solid $border-color;
+    // height: 100vh;
+}
+
+.backgroundImage {
+    background-image: url(../assets/Toronto1.jpg);
+    background-position: center center;
+}
+
+
+.wrapper-inner {
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper-outer {
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.colouredText {
+    color: #e69c37;
+}
+
+.lightText {
+    color: rgba(133, 133, 133, 1);
+}
+
+a:hover {
+    color: #e69c37;
+    text-decoration: none;
+}

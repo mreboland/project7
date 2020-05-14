@@ -1,0 +1,672 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* CSS */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+button {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.bodyMain {
+  border: 5px solid #e69c37;
+}
+
+.backgroundImage {
+  background-image: url(../assets/Toronto1.jpg);
+  background-position: center center;
+}
+
+.wrapper-inner {
+  max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper-outer {
+  max-width: 2000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a {
+  color: white;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.colouredText {
+  color: #e69c37;
+}
+
+.lightText {
+  color: #858585;
+}
+
+a:hover {
+  color: #e69c37;
+  text-decoration: none;
+}
+
+.indexNav {
+  margin-top: 100px;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.mainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainContent .contactMeButton {
+  margin-top: 50px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #E69C37;
+  padding: 5px 20px;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+          box-shadow: 1px 1px 20px 0px #000000;
+  border: solid #E69C37 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.mainContent .contactMeButton a {
+  color: #E69C37;
+}
+
+.mainContent .contactMeButton:hover {
+  background-color: rgba(230, 156, 55, 0.5);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.mainContent .contactMeButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.myImg {
+  padding: 6px 0 13px 0;
+}
+
+.more {
+  display: none;
+}
+
+.myBtn {
+  background-color: transparent;
+  border: none;
+  color: #E69C37;
+}
+
+.rowAbout {
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.colAbout {
+  padding: 0;
+}
+
+.mainContent .myImg {
+  max-width: 450px;
+}
+
+.genPadding {
+  padding: 0;
+}
+
+.row {
+  overflow: hidden;
+  position: relative;
+}
+
+.borderBottom:after {
+  position: absolute;
+}
+
+.borderLeft:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  border: 1px solid black;
+  content: '';
+  display: block;
+}
+
+.borderRight:after {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid black;
+  content: '';
+  display: block;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.about .aboutMe {
+  width: 60%;
+  padding-left: 200px;
+}
+
+.about .aboutMe h2 {
+  padding-bottom: 20px;
+}
+
+.bubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 120px;
+  height: 30px;
+  padding: 0px;
+  background: #e69c37;
+  border-radius: 0px;
+  color: black;
+}
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 5px 0;
+  border-color: #e69c37 transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -8px;
+  left: 5px;
+}
+
+.follow {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.follow li {
+  margin: 0 5px;
+}
+
+.follow .followMe li i {
+  border: 2px solid #858585;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.footerIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainResume {
+  height: 100vh;
+}
+
+.backgroundImageResume {
+  background-image: url(../assets/Toronto1.jpg);
+  background-position: center bottom;
+}
+
+.number {
+  padding-top: 50px;
+}
+
+.number div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.numberNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.numberNav p {
+  margin-bottom: 0;
+}
+
+.numberNav i {
+  margin-right: 20px;
+}
+
+.resumeNavMain {
+  margin-bottom: 100px;
+}
+
+.colNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.colNav .navResume {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.colNav .navResume li {
+  padding: 0 10px;
+}
+
+.rowCompetences {
+  margin-bottom: 100px;
+}
+
+.skillsMain {
+  margin-bottom: 100px;
+}
+
+.eduMain {
+  margin-bottom: 100px;
+}
+
+.navEdu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navEdu li {
+  width: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #333333;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0;
+}
+
+.skills {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skills li {
+  max-width: 100px;
+}
+
+.expMainNav {
+  margin-bottom: 50px;
+}
+
+.colExperiencesNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.colExperiencesNav ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.roles {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.roles li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 300px;
+  background-color: #333333;
+}
+
+.jobTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jobTitle div {
+  margin-left: 10px;
+}
+
+.skillsMain div,
+.eduMain .title {
+  margin-bottom: 50px;
+}
+
+.footerResume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+}
+
+.footerResume .follow {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.portfolioGallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolioGallery ul li {
+  width: 350px;
+}
