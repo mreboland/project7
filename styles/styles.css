@@ -485,6 +485,16 @@ a:hover {
           justify-content: center;
 }
 
+.myImgPortfolio {
+  max-width: 350px;
+  position: absolute;
+  left: 0;
+}
+
+.myImgPortfolio .row {
+  margin: 0;
+}
+
 .portfolioGallery ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -582,12 +592,23 @@ a:hover {
 
 .mainResume {
   height: 100vh;
+  position: relative;
 }
 
 .backgroundImageResume {
   background: #545555;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #545555), color-stop(10%, #303030), color-stop(90%, #303030), color-stop(95%, #545555));
   background: linear-gradient(0deg, #545555 5%, #303030 10%, #303030 90%, #545555 95%);
+}
+
+.myImgResume {
+  max-width: 350px;
+  position: absolute;
+  left: 0;
+}
+
+.myImgResume .row {
+  margin: 0;
 }
 
 .number {

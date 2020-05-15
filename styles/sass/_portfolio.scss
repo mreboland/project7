@@ -1,3 +1,14 @@
+.myImgPortfolio {
+    max-width: 350px;
+    position: absolute;
+    left: 0;
+
+    .row {
+        margin: 0;
+    }
+}
+
+
 .portfolioGallery ul {
     display: flex;
     flex-wrap: wrap;
