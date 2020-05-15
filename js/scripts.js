@@ -1,3 +1,4 @@
+// code courtesy of https://www.w3schools.com/howto/howto_js_read_more.asp
 function myFunction() {
     const dots = document.getElementById("dots");
     const moreText = document.getElementById("more");

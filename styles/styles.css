@@ -227,13 +227,23 @@ button {
   font-family: 'Signika Negative', sans-serif;
 }
 
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.7rem;
+}
+
 .bodyMain {
   border: 5px solid #e69c37;
 }
 
 .backgroundImage {
   background-image: url(../assets/Toronto1-opac98.jpg);
-  background-position: center bottom;
+  background-position: bottom bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -337,10 +347,6 @@ a:hover {
 .mainContent .contactMeButton:active {
   position: relative;
   top: 1px;
-}
-
-.myImg {
-  padding: 6px 0 13px 0;
 }
 
 .more {
@@ -535,14 +541,25 @@ a:hover {
   left: 40px;
 }
 
+.portfolioToLive .portfolioToLive:hover {
+  background-color: rgba(230, 156, 55, 0.5);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.portfolioToLive .portfolioToLive:active {
+  position: relative;
+  top: 1px;
+}
+
 .mainResume {
   height: 100vh;
 }
 
 .backgroundImageResume {
   background: #545555;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #545555), color-stop(10%, #333333), color-stop(90%, #333333), color-stop(94%, #545555));
-  background: linear-gradient(0deg, #545555 5%, #333333 10%, #333333 90%, #545555 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #545555), color-stop(10%, #303030), color-stop(90%, #303030), color-stop(95%, #545555));
+  background: linear-gradient(0deg, #545555 5%, #303030 10%, #303030 90%, #545555 95%);
 }
 
 .number {
@@ -631,11 +648,15 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  background-color: #333333;
+  background-color: #383838;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 50px 0;
+}
+
+.navEdu i {
+  font-size: 4rem;
 }
 
 .skills {
@@ -645,10 +666,38 @@ a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .skills li {
-  max-width: 100px;
+  width: 270px;
+  text-align: center;
+}
+
+.skills li p {
+  visibility: hidden;
+}
+
+.skills i {
+  font-size: 10rem;
+  color: #e69c37;
+}
+
+.skills .fabPadTop {
+  margin-top: 40px;
+}
+
+.skills .fabBorderBot {
+  border-bottom: 1px solid #ADADAD;
+}
+
+.skills .devicon i {
+  font-size: 9.7rem;
+}
+
+.skills li:hover p {
+  visibility: visible;
 }
 
 .expMainNav {
@@ -671,9 +720,9 @@ a:hover {
 }
 
 .roles {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .roles li {
@@ -685,17 +734,26 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 300px;
-  background-color: #333333;
+  background-color: #383838;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px;
 }
 
 .jobTitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 25px 0;
 }
 
 .jobTitle div {
   margin-left: 10px;
+}
+
+.jobTitle i {
+  font-size: 4rem;
 }
 
 .skillsMain div,

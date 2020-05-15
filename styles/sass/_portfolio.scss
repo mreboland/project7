@@ -11,12 +11,11 @@
 }
 
 .portfolioGallery .row {
-}
-
-.portfolioGallery .row {
     margin: 0;
 }
 
+
+// This border stuff needs to be changes to an overlay, it shrinks the images its applied to causing splits between the tiles
 .orangeRight {
     border-right: 1px solid #E69C37;
 }
@@ -45,4 +44,14 @@
     padding: 5px 10px;
     top: 100px;
     left: 40px;
+
+    .portfolioToLive:hover {
+        background-color: rgba(230, 156, 55, 0.5);
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .portfolioToLive:active {
+	position:relative;
+	top:1px;
+    }
 }

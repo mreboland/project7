@@ -32,14 +32,23 @@ button {
     font-family: 'Signika Negative', sans-serif;
 }
 
+h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
 .bodyMain {
     border: 5px solid $border-color;
-    // height: 100vh;
 }
 
 .backgroundImage {
     background-image: url(../assets/Toronto1-opac98.jpg);
-    background-position: center bottom;
+    background-position: bottom bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
