@@ -8,6 +8,9 @@
     }
 }
 
+.portfolioGallery {
+    margin-bottom: 100px;
+}
 
 .portfolioGallery ul {
     display: flex;
@@ -88,4 +91,25 @@
     background-color: rgba(230, 156, 55, 0.5);
     border-radius: 5px;
     text-decoration: none;
+}
+
+.followPort {
+    margin-top: 100px;
+    text-align: center;
+    // margin-bottom: 100px;
+
+    ul {
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin: 0 5px;
+    }
+
+    .followMe li i {
+        border: 2px solid rgba(133, 133, 133, 1);
+        border-radius: 5px;
+        padding: 5px;
+    }
+
 }

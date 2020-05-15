@@ -413,6 +413,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .about .aboutMe {
@@ -491,6 +492,10 @@ a:hover {
 
 .myImgPortfolio .row {
   margin: 0;
+}
+
+.portfolioGallery {
+  margin-bottom: 100px;
 }
 
 .portfolioGallery ul {
@@ -581,6 +586,25 @@ a:hover {
   background-color: rgba(230, 156, 55, 0.5);
   border-radius: 5px;
   text-decoration: none;
+}
+
+.followPort {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.followPort ul {
+  margin-bottom: 20px;
+}
+
+.followPort li {
+  margin: 0 5px;
+}
+
+.followPort .followMe li i {
+  border: 2px solid #858585;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .mainResume {
