@@ -1,8 +1,48 @@
 .portfolioGallery ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolioGallery li {
+    position: relative;
+    width: 355px;
 }
 
 .portfolioGallery .row {
-    width: 350px;
+}
+
+.portfolioGallery .row {
+    margin: 0;
+}
+
+.orangeRight {
+    border-right: 1px solid #E69C37;
+}
+.orangeTop {
+    border-top: 1px solid #E69C37;
+}
+.orangeLeft {
+    border-left: 1px solid #E69C37;
+}
+.orangeBottom {
+    border-bottom: 1px solid #E69C37;
+}
+
+.project1,
+.project2,
+.project3 {
+    margin-bottom: 50px;
+}
+
+.portfolioToLive {
+    position: absolute;
+    color: #E69C37;
+    background-color: transparent;
+    border: 1px solid #E69C37;
+    border-radius: 3px;
+    padding: 5px 10px;
+    top: 100px;
+    left: 40px;
 }
