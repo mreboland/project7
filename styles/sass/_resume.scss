@@ -152,6 +152,7 @@
         max-width: 300px;
         background-color: #383838;
         align-items: center;
+        justify-content: center;
         margin: 0 10px;
     }
 }
@@ -159,6 +160,8 @@
 .jobTitle {
     display: flex;
     padding: 25px 0;
+    flex-direction: column;
+    width: 85%;
 
     div {
         margin-left: 10px;
@@ -167,6 +170,15 @@
     i {
         font-size: 4rem;
     }
+
+    .jobTitleSub {
+        display: flex;
+        margin-left: 0;
+
+        .jobSubImg {
+            margin-left: 0;
+        }
+    }
 }
 
 .skillsMain div,
@@ -174,13 +186,45 @@
     margin-bottom: 50px;
 }
 
+.expMain {
+    margin-bottom: 100px;
+}
+
 .footerResume {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+    background-image:
+    linear-gradient(0deg, rgba(84,85,85,0.7) 10%, rgba(48,48,48,1) 95%),
+    url("../assets/Toronto3-mod.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
 
     .follow {
         text-align: center;
         padding-bottom: 10px;
     }
+}
+
+
+.followResume {
+    margin-top: 100px;
+    text-align: center;
+    // margin-bottom: 100px;
+
+    ul {
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin: 0 5px;
+    }
+
+    .followMe li i {
+        border: 2px solid rgba(133, 133, 133, 1);
+        border-radius: 5px;
+        padding: 5px;
+    }
+
 }
