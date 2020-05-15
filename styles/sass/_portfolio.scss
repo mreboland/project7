@@ -25,11 +25,9 @@
     margin: 0;
 }
 
-
 .orangeRight:after {
     position: absolute;
     top: 0px;
-    // left: 0px;
     right: 0px;
     bottom: 0px;
     border: 1px solid #E69C37;
@@ -42,7 +40,6 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    // bottom: 0px;
     border: 1px solid #E69C37;
     content: '';
     display: block;
@@ -52,15 +49,14 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    // right: 0px;
     bottom: 0px;
     border: 1px solid #E69C37;
     content: '';
     display: block;
 }
+
 .orangeBottom:after {
     position: absolute;
-    // top: 0px;
     left: 0px;
     right: 0px;
     bottom: 0px;
@@ -92,8 +88,4 @@
     background-color: rgba(230, 156, 55, 0.5);
     border-radius: 5px;
     text-decoration: none;
-}
-.portfolioToLive:active {
-    position:relative;
-    top:1px;
 }
