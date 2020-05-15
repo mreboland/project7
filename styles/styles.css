@@ -242,7 +242,7 @@ p {
 }
 
 .backgroundImage {
-  background-image: url(../assets/Toronto1-opac98.jpg);
+  background-image: url(../assets/water-architecture-colourful-church-test1.jpg);
   background-position: bottom bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -508,20 +508,44 @@ a:hover {
   margin: 0;
 }
 
-.orangeRight {
-  border-right: 1px solid #E69C37;
+.orangeRight:after {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid #E69C37;
+  content: '';
+  display: block;
 }
 
-.orangeTop {
-  border-top: 1px solid #E69C37;
+.orangeTop:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #E69C37;
+  content: '';
+  display: block;
 }
 
-.orangeLeft {
-  border-left: 1px solid #E69C37;
+.orangeLeft:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  border: 1px solid #E69C37;
+  content: '';
+  display: block;
 }
 
-.orangeBottom {
-  border-bottom: 1px solid #E69C37;
+.orangeBottom:after {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid #E69C37;
+  content: '';
+  display: block;
 }
 
 .project1,
@@ -541,13 +565,17 @@ a:hover {
   left: 40px;
 }
 
-.portfolioToLive .portfolioToLive:hover {
+.portfolioToLive a {
+  color: #E69C37;
+}
+
+.portfolioToLive:hover {
   background-color: rgba(230, 156, 55, 0.5);
   border-radius: 5px;
   text-decoration: none;
 }
 
-.portfolioToLive .portfolioToLive:active {
+.portfolioToLive:active {
   position: relative;
   top: 1px;
 }
