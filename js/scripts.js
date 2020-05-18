@@ -105,16 +105,121 @@ $(".resumeYear").on("click", function() {
 
 
         // need an if statement to check all other years in order to toggle button highlight
-        if ($(".year").hasClass("colouredText")) {
-            $(".year").toggleClass("colouredText");
+        if ($(".yearTwo").hasClass("colouredText")) {
+            $(".yearTwo").toggleClass("colouredText");
+        } else if ($(".yearThree").hasClass("colouredText")) {
+            $(".yearThree").toggleClass("colouredText");
+        } else if ($(".yearFour").hasClass("colouredText")) {
+            $(".yearFour").toggleClass("colouredText");
+        } else if ($(".yearFive").hasClass("colouredText")) {
+            $(".yearFive").toggleClass("colouredText");
+        } else if ($(".yearSix").hasClass("colouredText")) {
+            $(".yearSix").toggleClass("colouredText");
+        } else if ($(".yearSeven").hasClass("colouredText")) {
+            $(".yearSeven").toggleClass("colouredText");
         }
 
     } else if (year === "2018") {
         $(".roles").append(twentyEighteen);
         $(this).toggleClass("colouredText")
 
-        if ($(".yearOne, .yearThree, .yearFour, .yearFive").hasClass("colouredText")) {
-            $(".yearOne, .yearThree, .yearFour, .yearFive").toggleClass("colouredText");
+        if ($(".yearOne").hasClass("colouredText")) {
+            $(".yearOne").toggleClass("colouredText");
+        } else if ($(".yearThree").hasClass("colouredText")) {
+            $(".yearThree").toggleClass("colouredText");
+        } else if ($(".yearFour").hasClass("colouredText")) {
+            $(".yearFour").toggleClass("colouredText");
+        } else if ($(".yearFive").hasClass("colouredText")) {
+            $(".yearFive").toggleClass("colouredText");
+        } else if ($(".yearSix").hasClass("colouredText")) {
+            $(".yearSix").toggleClass("colouredText");
+        } else if ($(".yearSeven").hasClass("colouredText")) {
+            $(".yearSeven").toggleClass("colouredText");
+        } // need to fix if statements below here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    } else if (year === "2017") {
+        $(".roles").append(twentyEighteen);
+        $(this).toggleClass("colouredText")
+
+        if ($(".yearOne").hasClass("colouredText")) {
+            $(".yearOne").toggleClass("colouredText");
+        } else if ($(".yearThree").hasClass("colouredText")) {
+            $(".yearThree").toggleClass("colouredText");
+        } else if ($(".yearFour").hasClass("colouredText")) {
+            $(".yearFour").toggleClass("colouredText");
+        } else if ($(".yearFive").hasClass("colouredText")) {
+            $(".yearFive").toggleClass("colouredText");
+        } else if ($(".yearSix").hasClass("colouredText")) {
+            $(".yearSix").toggleClass("colouredText");
+        } else if ($(".yearSeven").hasClass("colouredText")) {
+            $(".yearSeven").toggleClass("colouredText");
+        }
+    } else if (year === "2017") {
+        $(".roles").append(twentyEighteen);
+        $(this).toggleClass("colouredText")
+
+        if ($(".yearOne").hasClass("colouredText")) {
+            $(".yearOne").toggleClass("colouredText");
+        } else if ($(".yearThree").hasClass("colouredText")) {
+            $(".yearThree").toggleClass("colouredText");
+        } else if ($(".yearFour").hasClass("colouredText")) {
+            $(".yearFour").toggleClass("colouredText");
+        } else if ($(".yearFive").hasClass("colouredText")) {
+            $(".yearFive").toggleClass("colouredText");
+        } else if ($(".yearSix").hasClass("colouredText")) {
+            $(".yearSix").toggleClass("colouredText");
+        } else if ($(".yearSeven").hasClass("colouredText")) {
+            $(".yearSeven").toggleClass("colouredText");
+        }
+    } else if (year === "2017") {
+        $(".roles").append(twentyEighteen);
+        $(this).toggleClass("colouredText")
+
+        if ($(".yearOne").hasClass("colouredText")) {
+            $(".yearOne").toggleClass("colouredText");
+        } else if ($(".yearThree").hasClass("colouredText")) {
+            $(".yearThree").toggleClass("colouredText");
+        } else if ($(".yearFour").hasClass("colouredText")) {
+            $(".yearFour").toggleClass("colouredText");
+        } else if ($(".yearFive").hasClass("colouredText")) {
+            $(".yearFive").toggleClass("colouredText");
+        } else if ($(".yearSix").hasClass("colouredText")) {
+            $(".yearSix").toggleClass("colouredText");
+        } else if ($(".yearSeven").hasClass("colouredText")) {
+            $(".yearSeven").toggleClass("colouredText");
+        }
+    } else if (year === "2017") {
+        $(".roles").append(twentyEighteen);
+        $(this).toggleClass("colouredText")
+
+        if ($(".yearOne").hasClass("colouredText")) {
+            $(".yearOne").toggleClass("colouredText");
+        } else if ($(".yearThree").hasClass("colouredText")) {
+            $(".yearThree").toggleClass("colouredText");
+        } else if ($(".yearFour").hasClass("colouredText")) {
+            $(".yearFour").toggleClass("colouredText");
+        } else if ($(".yearFive").hasClass("colouredText")) {
+            $(".yearFive").toggleClass("colouredText");
+        } else if ($(".yearSix").hasClass("colouredText")) {
+            $(".yearSix").toggleClass("colouredText");
+        } else if ($(".yearSeven").hasClass("colouredText")) {
+            $(".yearSeven").toggleClass("colouredText");
+        }
+    } else if (year === "2017") {
+        $(".roles").append(twentyEighteen);
+        $(this).toggleClass("colouredText")
+
+        if ($(".yearOne").hasClass("colouredText")) {
+            $(".yearOne").toggleClass("colouredText");
+        } else if ($(".yearThree").hasClass("colouredText")) {
+            $(".yearThree").toggleClass("colouredText");
+        } else if ($(".yearFour").hasClass("colouredText")) {
+            $(".yearFour").toggleClass("colouredText");
+        } else if ($(".yearFive").hasClass("colouredText")) {
+            $(".yearFive").toggleClass("colouredText");
+        } else if ($(".yearSix").hasClass("colouredText")) {
+            $(".yearSix").toggleClass("colouredText");
+        } else if ($(".yearSeven").hasClass("colouredText")) {
+            $(".yearSeven").toggleClass("colouredText");
         }
     }
 
