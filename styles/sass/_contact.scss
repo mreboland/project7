@@ -1,0 +1,99 @@
+.contactMain {
+    margin-top: 190px;
+}
+
+.formMain {
+    margin-bottom: 100px;
+
+    button {
+        background-color: transparent;
+        border-radius: 5px;
+        color: #E69C37;
+        padding: 5px 20px;
+        border: solid #E69C37 2px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    button:hover {
+        background-color: rgba(230, 156, 55, 0.5);
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    button:active {
+        position:relative;
+        top:1px;
+    }
+}
+
+
+
+fieldset {
+    width: 100%;
+    padding: 0;
+}
+
+.formAbout {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    label {
+        width: 32%;
+
+        input {
+            width: 100%;
+            line-height: 3;
+            background-color: #343434;
+            color: $text-color-secondary;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid $text-color-secondary;
+        }
+    }
+}
+
+.formMisc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    label {
+        width: 32%;
+
+        input {
+            width: 100%;
+            line-height: 3;
+            background-color: #343434;
+            color: $text-color-secondary;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid $text-color-secondary;
+        }
+    }
+}
+
+.formMsg {
+    margin-bottom: 30px;
+
+    label {
+        width: 100%;
+    }
+    
+    textarea {
+        width: 100%;
+        height: 300px;
+        background-color: #343434;
+        color: $text-color-secondary;
+        padding-top: 20px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid $text-color-secondary;
+        resize: none;
+    }
+}
