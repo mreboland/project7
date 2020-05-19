@@ -52,7 +52,11 @@
 .myBtn {
     background-color: transparent;
     border: none;
-    color: #E69C37;
+    padding: 0;
+    
+    a {
+        color: #E69C37;
+    }
 }
 
 .rowAbout {

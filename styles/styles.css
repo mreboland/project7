@@ -298,6 +298,30 @@ a:hover {
   text-decoration: none;
 }
 
+.colourHighlight {
+  height: 10px;
+  border: 2px solid #e69c37;
+  width: 1px;
+  margin: 0 auto;
+}
+
+.colourHighlightOne,
+.colourHighlightTwo,
+.colourHighlightThree,
+.colourHighlightFour,
+.colourHighlightFive,
+.colourHighlightSix {
+  visibility: hidden;
+  height: 10px;
+  border: 2px solid #e69c37;
+  width: 1px;
+  margin: 0 auto;
+}
+
+.colourHighlightShow {
+  visibility: visible !important;
+}
+
 .contactMe {
   margin-bottom: 50px;
 }
@@ -362,6 +386,10 @@ a:hover {
 .myBtn {
   background-color: transparent;
   border: none;
+  padding: 0;
+}
+
+.myBtn a {
   color: #E69C37;
 }
 
@@ -489,6 +517,15 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.colServices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .myImgPortfolio {
@@ -805,30 +842,6 @@ a:hover {
 
 .colExperiencesNav button:focus {
   outline: none;
-}
-
-.colourHighlight {
-  height: 10px;
-  border: 2px solid #e69c37;
-  width: 1px;
-  margin: 0 auto;
-}
-
-.colourHighlightOne,
-.colourHighlightTwo,
-.colourHighlightThree,
-.colourHighlightFour,
-.colourHighlightFive,
-.colourHighlightSix {
-  visibility: hidden;
-  height: 10px;
-  border: 2px solid #e69c37;
-  width: 1px;
-  margin: 0 auto;
-}
-
-.colourHighlightShow {
-  visibility: visible !important;
 }
 
 .roles {
