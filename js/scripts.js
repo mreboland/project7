@@ -18,13 +18,43 @@ function myFunction() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Resume
 
 $(".resumeYear").on("click", function() {
     const year = $(this).html();
-    console.log(year)
-    const classCheck = $(this).hasClass("colouredText");
-    console.log(classCheck);
 
     const twentyNineteen = `
         <li>
@@ -89,11 +119,91 @@ $(".resumeYear").on("click", function() {
         </li>
     `;
 
+    const twentySeventeen = `
 
+        <li>
+            <div class="jobTitle">
+                <div class="jobTitleSub">
+                    <div class="jobSubImg">
+                        <i class="fas fa-pencil-alt colouredText"></i>
+                    </div>
+                    <div>
+                        <h3>Specialty/Pricing Team</h3>
+                        <p class="colouredText">IA Clarington</p>
+                    </div>
+                </div>
+                <p class="lightText">Managed the day to day operation of Mutual Fund accounts</p>
+            </div>
+        </li>
+    `;
 
+    const twentySixteen = `
 
+        <li>
+            <div class="jobTitle">
+                <div class="jobTitleSub">
+                    <div class="jobSubImg">
+                        <i class="fas fa-pencil-alt colouredText"></i>
+                    </div>
+                    <div>
+                        <h3>Specialty/Pricing Team</h3>
+                        <p class="colouredText">IA Clarington</p>
+                    </div>
+                </div>
+                <p class="lightText">Managed the day to day operation of Mutual Fund accounts</p>
+            </div>
+        </li>
+    `;
 
+    const twentyFifteen = `
 
+        <li>
+            <div class="jobTitle">
+                <div class="jobTitleSub">
+                    <div class="jobSubImg">
+                        <i class="fas fa-pencil-alt colouredText"></i>
+                    </div>
+                    <div>
+                        <h3>Specialty/Pricing Team</h3>
+                        <p class="colouredText">IA Clarington</p>
+                    </div>
+                </div>
+                <p class="lightText">Managed the day to day operation of Mutual Fund accounts</p>
+            </div>
+        </li>
+    `;
+
+    const twentyFourteen = `
+
+        <li>
+            <div class="jobTitle">
+                <div class="jobTitleSub">
+                    <div class="jobSubImg">
+                        <i class="fas fa-pencil-alt colouredText"></i>
+                    </div>
+                    <div>
+                        <h3>Specialty/Pricing Team</h3>
+                        <p class="colouredText">IA Clarington</p>
+                    </div>
+                </div>
+                <p class="lightText">Managed the day to day operation of Mutual Fund accounts</p>
+            </div>
+        </li>
+        <li>
+            <div class="jobTitle">
+                <div class="jobTitleSub">
+                    <div class="jobSubImg">
+                        <i class="fas fa-pencil-alt colouredText"></i>
+                    </div>
+                    <div>
+                        <h3>Real Estate Admin/Tech Support</h3>
+                        <p class="colouredText">Coldwell Case Realty</p>
+                    </div>
+                </div>
+                <p class="lightText">Managed the day to day operation of realtor clients need. Tech support for the office.</p>
+            </div>
+        </li>
+    `;
 
 
 
@@ -102,136 +212,130 @@ $(".resumeYear").on("click", function() {
     if (year === "2019") {
         $(".roles").append(twentyNineteen);
         $(this).toggleClass("colouredText")
+        $(".colourHighlightOne").toggleClass("colourHighlightShow")
 
-
-        // need an if statement to check all other years in order to toggle button highlight
         if ($(".yearTwo").hasClass("colouredText")) {
             $(".yearTwo").toggleClass("colouredText");
+            $(".colourHighlightTwo").toggleClass("colourHighlightShow");
         } else if ($(".yearThree").hasClass("colouredText")) {
             $(".yearThree").toggleClass("colouredText");
+            $(".colourHighlightThree").toggleClass("colourHighlightShow");
         } else if ($(".yearFour").hasClass("colouredText")) {
             $(".yearFour").toggleClass("colouredText");
+            $(".colourHighlightFour").toggleClass("colourHighlightShow");
         } else if ($(".yearFive").hasClass("colouredText")) {
             $(".yearFive").toggleClass("colouredText");
+            $(".colourHighlightFive").toggleClass("colourHighlightShow");
         } else if ($(".yearSix").hasClass("colouredText")) {
             $(".yearSix").toggleClass("colouredText");
-        } else if ($(".yearSeven").hasClass("colouredText")) {
-            $(".yearSeven").toggleClass("colouredText");
+            $(".colourHighlightSix").toggleClass("colourHighlightShow");
         }
+        } else if (year === "2018") {
+            $(".roles").append(twentyEighteen);
+            $(this).toggleClass("colouredText")
+            $(".colourHighlightTwo").toggleClass("colourHighlightShow")
 
-    } else if (year === "2018") {
-        $(".roles").append(twentyEighteen);
-        $(this).toggleClass("colouredText")
+            if ($(".yearOne").hasClass("colouredText")) {
+                $(".yearOne").toggleClass("colouredText");
+                $(".colourHighlightOne").toggleClass("colourHighlightShow");
+            } else if ($(".yearThree").hasClass("colouredText")) {
+                $(".yearThree").toggleClass("colouredText");
+                $(".colourHighlightThree").toggleClass("colourHighlightShow");
+            } else if ($(".yearFour").hasClass("colouredText")) {
+                $(".yearFour").toggleClass("colouredText");
+                $(".colourHighlightFour").toggleClass("colourHighlightShow");
+            } else if ($(".yearFive").hasClass("colouredText")) {
+                $(".yearFive").toggleClass("colouredText");
+                $(".colourHighlightFive").toggleClass("colourHighlightShow");
+            } else if ($(".yearSix").hasClass("colouredText")) {
+                $(".yearSix").toggleClass("colouredText");
+                $(".colourHighlightSix").toggleClass("colourHighlightShow");
+            }
+        } else if (year === "2017") {
+            $(".roles").append(twentySeventeen);
+            $(this).toggleClass("colouredText")
+            $(".colourHighlightThree").toggleClass("colourHighlightShow")
 
-        if ($(".yearOne").hasClass("colouredText")) {
-            $(".yearOne").toggleClass("colouredText");
-        } else if ($(".yearThree").hasClass("colouredText")) {
-            $(".yearThree").toggleClass("colouredText");
-        } else if ($(".yearFour").hasClass("colouredText")) {
-            $(".yearFour").toggleClass("colouredText");
-        } else if ($(".yearFive").hasClass("colouredText")) {
-            $(".yearFive").toggleClass("colouredText");
-        } else if ($(".yearSix").hasClass("colouredText")) {
-            $(".yearSix").toggleClass("colouredText");
-        } else if ($(".yearSeven").hasClass("colouredText")) {
-            $(".yearSeven").toggleClass("colouredText");
-        } // need to fix if statements below here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    } else if (year === "2017") {
-        $(".roles").append(twentyEighteen);
-        $(this).toggleClass("colouredText")
+            if ($(".yearOne").hasClass("colouredText")) {
+                $(".yearOne").toggleClass("colouredText");
+                $(".colourHighlightOne").toggleClass("colourHighlightShow");
+            } else if ($(".yearTwo").hasClass("colouredText")) {
+                $(".yearTwo").toggleClass("colouredText");
+                $(".colourHighlightTwo").toggleClass("colourHighlightShow");
+            } else if ($(".yearFour").hasClass("colouredText")) {
+                $(".yearFour").toggleClass("colouredText");
+                $(".colourHighlightFour").toggleClass("colourHighlightShow");
+            } else if ($(".yearFive").hasClass("colouredText")) {
+                $(".yearFive").toggleClass("colouredText");
+                $(".colourHighlightFive").toggleClass("colourHighlightShow");
+            } else if ($(".yearSix").hasClass("colouredText")) {
+                $(".yearSix").toggleClass("colouredText");
+                $(".colourHighlightSix").toggleClass("colourHighlightShow");
+            }
+        } else if (year === "2016") {
+            $(".roles").append(twentySixteen);
+            $(this).toggleClass("colouredText")
+            $(".colourHighlightFour").toggleClass("colourHighlightShow")
 
-        if ($(".yearOne").hasClass("colouredText")) {
-            $(".yearOne").toggleClass("colouredText");
-        } else if ($(".yearThree").hasClass("colouredText")) {
-            $(".yearThree").toggleClass("colouredText");
-        } else if ($(".yearFour").hasClass("colouredText")) {
-            $(".yearFour").toggleClass("colouredText");
-        } else if ($(".yearFive").hasClass("colouredText")) {
-            $(".yearFive").toggleClass("colouredText");
-        } else if ($(".yearSix").hasClass("colouredText")) {
-            $(".yearSix").toggleClass("colouredText");
-        } else if ($(".yearSeven").hasClass("colouredText")) {
-            $(".yearSeven").toggleClass("colouredText");
+            if ($(".yearOne").hasClass("colouredText")) {
+                $(".yearOne").toggleClass("colouredText");
+                $(".colourHighlightOne").toggleClass("colourHighlightShow");
+            } else if ($(".yearTwo").hasClass("colouredText")) {
+                $(".yearTwo").toggleClass("colouredText");
+                $(".colourHighlightTwo").toggleClass("colourHighlightShow");
+            } else if ($(".yearThree").hasClass("colouredText")) {
+                $(".yearThree").toggleClass("colouredText");
+                $(".colourHighlightThree").toggleClass("colourHighlightShow");
+            } else if ($(".yearFive").hasClass("colouredText")) {
+                $(".yearFive").toggleClass("colouredText");
+                $(".colourHighlightFive").toggleClass("colourHighlightShow");
+            } else if ($(".yearSix").hasClass("colouredText")) {
+                $(".yearSix").toggleClass("colouredText");
+                $(".colourHighlightSix").toggleClass("colourHighlightShow");
+            }
+        } else if (year === "2015") {
+            $(".roles").append(twentyFifteen);
+            $(this).toggleClass("colouredText")
+            $(".colourHighlightFive").toggleClass("colourHighlightShow")
+
+            if ($(".yearOne").hasClass("colouredText")) {
+                $(".yearOne").toggleClass("colouredText");
+                $(".colourHighlightOne").toggleClass("colourHighlightShow");
+            } else if ($(".yearTwo").hasClass("colouredText")) {
+                $(".yearTwo").toggleClass("colouredText");
+                $(".colourHighlightTwo").toggleClass("colourHighlightShow");
+            } else if ($(".yearThree").hasClass("colouredText")) {
+                $(".yearThree").toggleClass("colouredText");
+                $(".colourHighlightThree").toggleClass("colourHighlightShow");
+            } else if ($(".yearFour").hasClass("colouredText")) {
+                $(".yearFour").toggleClass("colouredText");
+                $(".colourHighlightFour").toggleClass("colourHighlightShow");
+            } else if ($(".yearSix").hasClass("colouredText")) {
+                $(".yearSix").toggleClass("colouredText");
+                $(".colourHighlightSix").toggleClass("colourHighlightShow");
+            }
+        } else if (year === "2014") {
+            $(".roles").append(twentyFourteen);
+            $(this).toggleClass("colouredText")
+            $(".colourHighlightSix").toggleClass("colourHighlightShow")
+
+            if ($(".yearOne").hasClass("colouredText")) {
+                $(".yearOne").toggleClass("colouredText");
+                $(".colourHighlightOne").toggleClass("colourHighlightShow");
+            } else if ($(".yearTwo").hasClass("colouredText")) {
+                $(".yearTwo").toggleClass("colouredText");
+                $(".colourHighlightTwo").toggleClass("colourHighlightShow");
+            } else if ($(".yearThree").hasClass("colouredText")) {
+                $(".yearThree").toggleClass("colouredText");
+                $(".colourHighlightThree").toggleClass("colourHighlightShow");
+            } else if ($(".yearFour").hasClass("colouredText")) {
+                $(".yearFour").toggleClass("colouredText");
+                $(".colourHighlightFour").toggleClass("colourHighlightShow");
+            } else if ($(".yearFive").hasClass("colouredText")) {
+                $(".yearFive").toggleClass("colouredText");
+                $(".colourHighlightFive").toggleClass("colourHighlightShow");
+            }
         }
-    } else if (year === "2017") {
-        $(".roles").append(twentyEighteen);
-        $(this).toggleClass("colouredText")
-
-        if ($(".yearOne").hasClass("colouredText")) {
-            $(".yearOne").toggleClass("colouredText");
-        } else if ($(".yearThree").hasClass("colouredText")) {
-            $(".yearThree").toggleClass("colouredText");
-        } else if ($(".yearFour").hasClass("colouredText")) {
-            $(".yearFour").toggleClass("colouredText");
-        } else if ($(".yearFive").hasClass("colouredText")) {
-            $(".yearFive").toggleClass("colouredText");
-        } else if ($(".yearSix").hasClass("colouredText")) {
-            $(".yearSix").toggleClass("colouredText");
-        } else if ($(".yearSeven").hasClass("colouredText")) {
-            $(".yearSeven").toggleClass("colouredText");
-        }
-    } else if (year === "2017") {
-        $(".roles").append(twentyEighteen);
-        $(this).toggleClass("colouredText")
-
-        if ($(".yearOne").hasClass("colouredText")) {
-            $(".yearOne").toggleClass("colouredText");
-        } else if ($(".yearThree").hasClass("colouredText")) {
-            $(".yearThree").toggleClass("colouredText");
-        } else if ($(".yearFour").hasClass("colouredText")) {
-            $(".yearFour").toggleClass("colouredText");
-        } else if ($(".yearFive").hasClass("colouredText")) {
-            $(".yearFive").toggleClass("colouredText");
-        } else if ($(".yearSix").hasClass("colouredText")) {
-            $(".yearSix").toggleClass("colouredText");
-        } else if ($(".yearSeven").hasClass("colouredText")) {
-            $(".yearSeven").toggleClass("colouredText");
-        }
-    } else if (year === "2017") {
-        $(".roles").append(twentyEighteen);
-        $(this).toggleClass("colouredText")
-
-        if ($(".yearOne").hasClass("colouredText")) {
-            $(".yearOne").toggleClass("colouredText");
-        } else if ($(".yearThree").hasClass("colouredText")) {
-            $(".yearThree").toggleClass("colouredText");
-        } else if ($(".yearFour").hasClass("colouredText")) {
-            $(".yearFour").toggleClass("colouredText");
-        } else if ($(".yearFive").hasClass("colouredText")) {
-            $(".yearFive").toggleClass("colouredText");
-        } else if ($(".yearSix").hasClass("colouredText")) {
-            $(".yearSix").toggleClass("colouredText");
-        } else if ($(".yearSeven").hasClass("colouredText")) {
-            $(".yearSeven").toggleClass("colouredText");
-        }
-    } else if (year === "2017") {
-        $(".roles").append(twentyEighteen);
-        $(this).toggleClass("colouredText")
-
-        if ($(".yearOne").hasClass("colouredText")) {
-            $(".yearOne").toggleClass("colouredText");
-        } else if ($(".yearThree").hasClass("colouredText")) {
-            $(".yearThree").toggleClass("colouredText");
-        } else if ($(".yearFour").hasClass("colouredText")) {
-            $(".yearFour").toggleClass("colouredText");
-        } else if ($(".yearFive").hasClass("colouredText")) {
-            $(".yearFive").toggleClass("colouredText");
-        } else if ($(".yearSix").hasClass("colouredText")) {
-            $(".yearSix").toggleClass("colouredText");
-        } else if ($(".yearSeven").hasClass("colouredText")) {
-            $(".yearSeven").toggleClass("colouredText");
-        }
-    }
-
-    // if (classCheck === true) {
-    //     $(this).toggleClass("colouredText", false)
-
-    // }
-    // if ($(this).hasClass("colouredText") {
-        
-    // }
-
-
 
 })
 

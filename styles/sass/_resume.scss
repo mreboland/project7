@@ -140,6 +140,44 @@
     ul {
         align-items: center;
     }
+
+    button {
+        background-color: transparent;
+        border: none;
+        color: $text-color-main;
+    }
+    button:hover {
+        color: #e69c37;
+        outline: 0 !important;
+    }
+
+    button:focus {
+        outline: none;
+    }
+}
+
+.colourHighlight {
+	height: 10px;
+	border: 2px solid #e69c37;
+	width: 1px;
+	margin: 0 auto;
+}
+
+.colourHighlightOne,
+.colourHighlightTwo,
+.colourHighlightThree,
+.colourHighlightFour,
+.colourHighlightFive,
+.colourHighlightSix {
+    visibility: hidden;
+	height: 10px;
+	border: 2px solid #e69c37;
+	width: 1px;
+	margin: 0 auto;
+}
+
+.colourHighlightShow {
+    visibility: visible !important;
 }
 
 
@@ -181,7 +219,7 @@
     }
 }
 
-.skillsMain div,
+.skillsMain .col div,
 .eduMain .title {
     margin-bottom: 50px;
 }

@@ -286,7 +286,7 @@ img {
 }
 
 .colouredText {
-  color: #e69c37;
+  color: #e69c37 !important;
 }
 
 .lightText {
@@ -792,6 +792,45 @@ a:hover {
           align-items: center;
 }
 
+.colExperiencesNav button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.colExperiencesNav button:hover {
+  color: #e69c37;
+  outline: 0 !important;
+}
+
+.colExperiencesNav button:focus {
+  outline: none;
+}
+
+.colourHighlight {
+  height: 10px;
+  border: 2px solid #e69c37;
+  width: 1px;
+  margin: 0 auto;
+}
+
+.colourHighlightOne,
+.colourHighlightTwo,
+.colourHighlightThree,
+.colourHighlightFour,
+.colourHighlightFive,
+.colourHighlightSix {
+  visibility: hidden;
+  height: 10px;
+  border: 2px solid #e69c37;
+  width: 1px;
+  margin: 0 auto;
+}
+
+.colourHighlightShow {
+  visibility: visible !important;
+}
+
 .roles {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -848,7 +887,7 @@ a:hover {
   margin-left: 0;
 }
 
-.skillsMain div,
+.skillsMain .col div,
 .eduMain .title {
   margin-bottom: 50px;
 }
@@ -970,6 +1009,7 @@ fieldset {
   border-left: none;
   border-right: none;
   border-bottom: 1px solid #ADADAD;
+  padding-left: 20px;
 }
 
 .formMisc {
@@ -995,6 +1035,7 @@ fieldset {
   border-left: none;
   border-right: none;
   border-bottom: 1px solid #ADADAD;
+  padding-left: 20px;
 }
 
 .formMsg {
@@ -1011,6 +1052,7 @@ fieldset {
   background-color: #343434;
   color: #ADADAD;
   padding-top: 20px;
+  padding-left: 20px;
   border-top: none;
   border-left: none;
   border-right: none;
