@@ -17,8 +17,21 @@ function myFunction() {
     }
 }
 
+const toggleButton = document.querySelector('.toggle-menu');
+const navBar = document.querySelector('.nav-bar');
+toggleButton.addEventListener('click', function () {
+    navBar.classList.toggle('toggle');
+});
 
 
+function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 
 
 

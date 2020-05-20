@@ -1,0 +1,202 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+
+// INDEX PAGE
+
+@keyframes bugfix { from {padding:0;} to {padding:0;}}
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;}}
+
+#overlay-button {
+    padding: 26px 11px;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
+
+span {
+    height: 4px;
+    width: 35px;
+    border-radius: 2px;
+    background-color: white;
+    position: relative;
+    display: block;
+    transition: all .2s ease-in-out;
+    &:before {
+        top: -10px;
+        visibility: visible;
+    }
+
+    &:after {
+    top: 10px;
+    }
+
+    &:before, &:after {
+        height: 4px;
+        width: 35px;
+        border-radius: 2px;
+        background-color: white;
+        position: absolute;
+        content: "";
+        transition: all .2s ease-in-out;
+        left: 0;
+    }
+    }
+    &:hover span, &:hover span:before, &:hover span:after {
+        background: #e69c37;
+    }
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #overlay {
+    visibility: visible;
+    
+}
+
+input[type=checkbox]:checked ~ #overlay-button {
+    &:hover span, span{
+    background: transparent;
+    }
+
+    span {
+        &:before {
+            transform: rotate(45deg) translate(7px, 7px);
+            opacity: 1;
+        }
+        &:after {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+    }
+}
+
+#overlay {
+    height: 100vh;
+    width: 88%;
+    background: rgba(84,85,85,0.8);
+    z-index: 2;
+    visibility: hidden;
+    position: fixed;
+
+    &.active {
+        visibility: visible;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 90vh;
+        padding-left: 0;
+        list-style-type: none;
+
+        li {
+            padding: 1em;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+
+        &:hover {
+            color: #e69c37;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+.indexNav {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: right;
+    justify-content: flex-end;
+
+    .nav {
+        display: none;
+    }
+
+    .hamburger {
+        font-size: 3.5rem;
+    }
+}
+
+.mainContent {
+	margin-top: 0;
+
+}
+
+.mainContent .myImg {
+	justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+    .about {
+    flex-direction: column;
+}
+
+.rowAbout {
+	width: 100%;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.about .aboutMe {
+	width: 90%; 
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+.myImg .row {
+    flex-wrap: nowrap;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+// RESUME PAGE
+
+
+// PORTFOLIO PAGE
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+}
