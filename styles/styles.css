@@ -330,6 +330,10 @@ a:hover {
   margin-top: 100px;
 }
 
+.indexNav input {
+  display: none;
+}
+
 .nav li {
   margin: 0 10px;
 }
@@ -379,10 +383,6 @@ a:hover {
   top: 1px;
 }
 
-.more {
-  display: none;
-}
-
 .myBtn {
   background-color: transparent;
   border: none;
@@ -404,7 +404,7 @@ a:hover {
 }
 
 .mainContent .myImg {
-  max-width: 450px;
+  max-width: 500px;
 }
 
 .myImg .row {
@@ -1077,7 +1077,7 @@ fieldset {
   resize: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 460px) {
   @keyframes bugfix {
     from {
       padding: 0;
@@ -1242,5 +1242,203 @@ fieldset {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     width: 60%;
+  }
+  .followIndex {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 461px) and (max-width: 800px) {
+  @keyframes bugfix {
+    from {
+      padding: 0;
+    }
+    to {
+      padding: 0;
+    }
+  }
+  @-webkit-keyframes bugfix {
+    from {
+      padding: 0;
+    }
+    to {
+      padding: 0;
+    }
+  }
+  #overlay-button {
+    padding: 26px 11px;
+    z-index: 5;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  #overlay-button span {
+    height: 4px;
+    width: 35px;
+    border-radius: 2px;
+    background-color: white;
+    position: relative;
+    display: block;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  #overlay-button span:before {
+    top: -10px;
+    visibility: visible;
+  }
+  #overlay-button span:after {
+    top: 10px;
+  }
+  #overlay-button span:before, #overlay-button span:after {
+    height: 4px;
+    width: 35px;
+    border-radius: 2px;
+    background-color: white;
+    position: absolute;
+    content: "";
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    left: 0;
+  }
+  #overlay-button:hover span, #overlay-button:hover span:before, #overlay-button:hover span:after {
+    background: #e69c37;
+  }
+  input[type=checkbox] {
+    display: none;
+  }
+  input[type=checkbox]:checked ~ #overlay {
+    visibility: visible;
+  }
+  input[type=checkbox]:checked ~ #overlay-button:hover span, input[type=checkbox]:checked ~ #overlay-button span {
+    background: transparent;
+  }
+  input[type=checkbox]:checked ~ #overlay-button span:before {
+    -webkit-transform: rotate(45deg) translate(7px, 7px);
+            transform: rotate(45deg) translate(7px, 7px);
+    opacity: 1;
+  }
+  input[type=checkbox]:checked ~ #overlay-button span:after {
+    -webkit-transform: rotate(-45deg) translate(7px, -7px);
+            transform: rotate(-45deg) translate(7px, -7px);
+  }
+  #overlay {
+    height: 100vh;
+    width: 89%;
+    background: rgba(84, 85, 85, 0.8);
+    z-index: 2;
+    visibility: hidden;
+    position: fixed;
+  }
+  #overlay.active {
+    visibility: visible;
+  }
+  #overlay ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    height: 90vh;
+    padding-left: 0;
+    list-style-type: none;
+  }
+  #overlay ul li {
+    padding: 1em;
+  }
+  #overlay ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  #overlay ul li a:hover {
+    color: #e69c37;
+  }
+  .indexNav {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: right;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .indexNav .nav {
+    display: none;
+  }
+  .indexNav .hamburger {
+    font-size: 3.5rem;
+  }
+  .mainContent {
+    margin-top: 0;
+  }
+  .mainContent .myImg {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rowAbout {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .about .aboutMe {
+    width: 90%;
+    padding-left: 0;
+    margin-top: 50px;
+  }
+  .myImg .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 60%;
+  }
+  .followIndex {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1080px) {
+  .mainContent .myImg {
+    max-width: 320px;
+  }
+  .about .aboutMe {
+    width: 60%;
+    padding-left: 70px;
+  }
+}
+
+@media only screen and (min-height: 1109px) {
+  .backgroundImage {
+    background-image: url(../assets/water-architecture-colourful-church-test1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
 }

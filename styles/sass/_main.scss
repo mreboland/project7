@@ -5,6 +5,10 @@
 
 .indexNav {
     margin-top: 100px;
+
+    input {
+        display: none;
+    }
 }
 
 .nav li {
@@ -47,7 +51,6 @@
     }
 }
 
-.more {display: none;}
 
 .myBtn {
     background-color: transparent;
@@ -71,7 +74,7 @@
 
 
 .mainContent .myImg {
-    max-width: 450px;
+    max-width: 500px;
     
 }
 
