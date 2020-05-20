@@ -43,11 +43,13 @@
 
 .resumeNavMain {
     margin-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .colNav {
 	display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     
     .navResume {
         align-items: center;
