@@ -88,7 +88,7 @@ input[type=checkbox]:checked ~ #overlay-button {
         align-items: center;
         flex-direction: column;
         text-align: center;
-        height: 90vh;
+        height: 100vh;
         padding-left: 0;
         list-style-type: none;
 
@@ -159,6 +159,121 @@ input[type=checkbox]:checked ~ #overlay-button {
         text-align: center;
         margin-bottom: 20px;
     }
+
+    // RESUME PAGE
+
+    .number {
+	display: none;
+    }
+
+    .myImgResume {
+        max-width: 150px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .resumeNavMain {
+        margin-bottom: 0;
+        margin-top: 0;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+
+        label {
+        display: flex;
+        justify-content: flex-end;
+        }
+
+        .navMainName {
+            width: 56%;
+            text-align: left;
+        }
+
+        #overlay {
+            height: 100vh;
+            width: 100%;
+            background: rgba(84, 85, 85, 0.8);
+            z-index: 2;
+            visibility: hidden;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+
+            ul {
+                height: 100vh;
+            }
+        }
+
+        .colNav {
+            margin-top: 0;
+        }
+
+
+
+
+
+
+    }
+
+    .navResume {
+        display: none;
+    }
+
+    .colNav {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    .skillsMain {
+        margin-bottom: 50px;
+    }
+
+    .skills .fabBorderBot {
+        border-bottom: none;
+    }
+
+    .skills li {
+        width: 80px;
+    }
+
+    .skills i {
+        font-size: 7rem;
+    }
+
+    .skills .devicon i {
+	font-size: 6.5rem;
+    }
+
+    .eduMain {
+        margin-bottom: 50px;
+    }
+
+    .navEdu {
+        justify-content: center;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .colExperiencesNav {
+        flex-direction: column;
+    }
+
+    .roles {
+        flex-direction: column;
+
+        li:nth-child(1) {
+            margin-bottom: 10px;
+        }
+    }
+
+
+
+
+// PORTFOLIO PAGE
+
 
 }
 
@@ -357,30 +472,6 @@ input[type=checkbox]:checked ~ #overlay-button {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// RESUME PAGE
-
-
-// PORTFOLIO PAGE
 
 
 
