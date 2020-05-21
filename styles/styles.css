@@ -1189,7 +1189,7 @@ fieldset {
   }
   #overlay {
     height: 100vh;
-    width: 88%;
+    width: 90%;
     background: rgba(84, 85, 85, 0.8);
     z-index: 2;
     visibility: hidden;
@@ -1317,7 +1317,6 @@ fieldset {
   }
   .resumeNavMain #overlay {
     height: 100vh;
-    width: 100%;
     background: rgba(84, 85, 85, 0.8);
     z-index: 2;
     visibility: hidden;
