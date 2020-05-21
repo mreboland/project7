@@ -1383,6 +1383,9 @@ fieldset {
   .project5 {
     margin-bottom: 50px;
   }
+  .aboutMeMain {
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (min-width: 461px) and (max-width: 800px) {
@@ -1671,6 +1674,37 @@ fieldset {
   .roles li:nth-child(1) {
     margin-bottom: 10px;
   }
+  .myImgPortfolio {
+    max-width: 150px;
+  }
+  .myImgPortfolio .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .expMainNav {
+    margin-top: 100px;
+  }
+  .project1 .row,
+  .project2 .row,
+  .project3 .row,
+  .project4 .row,
+  .project5 .row,
+  .project6 .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .project4,
+  .project5 {
+    margin-bottom: 50px;
+  }
+  .portfolioGallery ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutMeMain {
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1080px) {
@@ -1776,6 +1810,38 @@ fieldset {
   .roles li:nth-child(1) {
     margin-bottom: 10px;
   }
+  .myImgPortfolio {
+    max-width: 200px;
+  }
+  .myImgPortfolio .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .expMainNav {
+    margin-top: 100px;
+  }
+  .project1,
+  .project2,
+  .project3 {
+    margin-bottom: 0;
+  }
+  .project1 .row,
+  .project2 .row,
+  .project3 .row,
+  .project4 .row,
+  .project5 .row,
+  .project6 .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .portfolioGallery ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutMeMain {
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (min-width: 1081px) and (max-width: 1250px) {
@@ -1875,6 +1941,41 @@ fieldset {
   .roles li:nth-child(1) {
     margin-bottom: 10px;
   }
+  .myImgPortfolio {
+    max-width: 250px;
+  }
+  .myImgPortfolio .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .colPortfolioNav {
+    margin-top: 50px;
+  }
+  .expMainNav {
+    margin-top: 100px;
+  }
+  .project1,
+  .project2,
+  .project3 {
+    margin-bottom: 0;
+  }
+  .project1 .row,
+  .project2 .row,
+  .project3 .row,
+  .project4 .row,
+  .project5 .row,
+  .project6 .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .portfolioGallery ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutMeMain {
+    margin-top: 150px;
+  }
 }
 
 @media only screen and (min-width: 1251px) and (max-width: 1500px) {
@@ -1921,6 +2022,41 @@ fieldset {
   .skillsMain {
     margin-top: 150px;
     margin-bottom: 50px;
+  }
+  .myImgPortfolio {
+    max-width: 250px;
+  }
+  .myImgPortfolio .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .colPortfolioNav {
+    margin-top: 50px;
+  }
+  .expMainNav {
+    margin-top: 100px;
+  }
+  .project1,
+  .project2,
+  .project3 {
+    margin-bottom: 0;
+  }
+  .project1 .row,
+  .project2 .row,
+  .project3 .row,
+  .project4 .row,
+  .project5 .row,
+  .project6 .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .portfolioGallery ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutMeMain {
+    margin-top: 150px;
   }
 }
 
@@ -1969,6 +2105,41 @@ fieldset {
     margin-top: 150px;
     margin-bottom: 50px;
   }
+  .myImgPortfolio {
+    max-width: 300px;
+  }
+  .myImgPortfolio .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .colPortfolioNav {
+    margin-top: 50px;
+  }
+  .expMainNav {
+    margin-top: 100px;
+  }
+  .project1,
+  .project2,
+  .project3 {
+    margin-bottom: 0;
+  }
+  .project1 .row,
+  .project2 .row,
+  .project3 .row,
+  .project4 .row,
+  .project5 .row,
+  .project6 .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .portfolioGallery ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutMeMain {
+    margin-top: 150px;
+  }
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
@@ -2015,6 +2186,41 @@ fieldset {
   .skillsMain {
     margin-top: 150px;
     margin-bottom: 50px;
+  }
+  .myImgPortfolio {
+    max-width: 300px;
+  }
+  .myImgPortfolio .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .colPortfolioNav {
+    margin-top: 50px;
+  }
+  .expMainNav {
+    margin-top: 100px;
+  }
+  .project1,
+  .project2,
+  .project3 {
+    margin-bottom: 0;
+  }
+  .project1 .row,
+  .project2 .row,
+  .project3 .row,
+  .project4 .row,
+  .project5 .row,
+  .project6 .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .portfolioGallery ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutMeMain {
+    margin-top: 150px;
   }
 }
 

@@ -297,32 +297,14 @@ input[type=checkbox]:checked ~ #overlay-button {
     .project5 {
     margin-bottom: 50px;
 }
-    
 
+// ABOUT PAGE --------------------------------------------
 
-
+    .aboutMeMain {
+        margin-top: 100px;
+    }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -602,51 +584,50 @@ input[type=checkbox]:checked ~ #overlay-button {
     }
 
 
+// PORTFOLIO PAGE --------------------------------------------
 
+    .myImgPortfolio {
+        max-width: 150px;
 
+        .row {
+            flex-wrap: nowrap;
+        }
 
+    }
 
+    .expMainNav {
+        margin-top: 100px;
+    }
 
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
 
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
 
-
-
-
-
-    
+    .project4,
+    .project5 {
+    margin-bottom: 50px;
 }
 
+.portfolioGallery ul {
+	justify-content: center;
 
+}
 
+// ABOUT PAGE --------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .aboutMeMain {
+        margin-top: 100px;
+    }
+    
+}
 
 
 
@@ -765,6 +746,49 @@ input[type=checkbox]:checked ~ #overlay-button {
     }
 
 
+// PORTFOLIO PAGE --------------------------------------------
+
+    .myImgPortfolio {
+        max-width: 200px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+
+    }
+
+    .expMainNav {
+        margin-top: 100px;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        margin-bottom: 0;
+}
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+.portfolioGallery ul {
+	justify-content: center;
+
+}
+
+// ABOUT PAGE --------------------------------------------
+
+    .aboutMeMain {
+        margin-top: 100px;
+    }
 
 
 }
@@ -868,6 +892,55 @@ input[type=checkbox]:checked ~ #overlay-button {
         }
     }
 
+
+    // PORTFOLIO PAGE --------------------------------------------
+
+    .myImgPortfolio {
+        max-width: 250px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+
+    }
+
+    .colPortfolioNav {
+        margin-top: 50px;
+    }
+
+    .expMainNav {
+        margin-top: 100px;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        margin-bottom: 0;
+}
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+.portfolioGallery ul {
+	justify-content: center;
+
+}
+
+// ABOUT PAGE --------------------------------------------
+
+    .aboutMeMain {
+        margin-top: 150px;
+    }
+
 }
 
 
@@ -917,6 +990,55 @@ input[type=checkbox]:checked ~ #overlay-button {
         margin-top: 150px;
         margin-bottom: 50px;
     }
+
+        // PORTFOLIO PAGE --------------------------------------------
+
+    .myImgPortfolio {
+        max-width: 250px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+
+    }
+
+    .colPortfolioNav {
+        margin-top: 50px;
+    }
+
+    .expMainNav {
+        margin-top: 100px;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        margin-bottom: 0;
+}
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+.portfolioGallery ul {
+	justify-content: center;
+
+}
+
+// ABOUT PAGE --------------------------------------------
+
+    .aboutMeMain {
+        margin-top: 150px;
+    }
+
 
 
 }
@@ -968,6 +1090,55 @@ input[type=checkbox]:checked ~ #overlay-button {
         margin-bottom: 50px;
     }
 
+        // PORTFOLIO PAGE --------------------------------------------
+
+    .myImgPortfolio {
+        max-width: 300px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+
+    }
+
+    .colPortfolioNav {
+        margin-top: 50px;
+    }
+
+    .expMainNav {
+        margin-top: 100px;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        margin-bottom: 0;
+}
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+.portfolioGallery ul {
+	justify-content: center;
+
+}
+
+// ABOUT PAGE --------------------------------------------
+
+    .aboutMeMain {
+        margin-top: 150px;
+    }
+
+
 
 }
 
@@ -1016,6 +1187,55 @@ input[type=checkbox]:checked ~ #overlay-button {
         margin-top: 150px;
         margin-bottom: 50px;
     }
+
+        // PORTFOLIO PAGE --------------------------------------------
+
+    .myImgPortfolio {
+        max-width: 300px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+
+    }
+
+    .colPortfolioNav {
+        margin-top: 50px;
+    }
+
+    .expMainNav {
+        margin-top: 100px;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        margin-bottom: 0;
+}
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+.portfolioGallery ul {
+	justify-content: center;
+
+}
+
+// ABOUT PAGE --------------------------------------------
+
+    .aboutMeMain {
+        margin-top: 150px;
+    }
+
 
 
 }
