@@ -1360,6 +1360,29 @@ fieldset {
   .roles li:nth-child(1) {
     margin-bottom: 10px;
   }
+  .myImgPortfolio {
+    max-width: 150px;
+  }
+  .myImgPortfolio .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .expMainNav {
+    margin-top: 100px;
+  }
+  .project1 .row,
+  .project2 .row,
+  .project3 .row,
+  .project4 .row,
+  .project5 .row,
+  .project6 .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .project4,
+  .project5 {
+    margin-bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 461px) and (max-width: 800px) {
@@ -1535,6 +1558,119 @@ fieldset {
     text-align: center;
     margin-bottom: 20px;
   }
+  .number {
+    display: none;
+  }
+  .myImgResume {
+    max-width: 150px;
+  }
+  .myImgResume .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .resumeNavMain {
+    margin-bottom: 0;
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .resumeNavMain label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .resumeNavMain .navMainName {
+    width: 56%;
+    text-align: left;
+  }
+  .resumeNavMain #overlay {
+    height: 100vh;
+    background: rgba(84, 85, 85, 0.8);
+    z-index: 2;
+    visibility: hidden;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .resumeNavMain #overlay ul {
+    height: 100vh;
+  }
+  .resumeNavMain .colNav {
+    margin-top: 0;
+  }
+  .navResume {
+    display: none;
+  }
+  .colNav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 100px;
+  }
+  .skillsMain {
+    margin-bottom: 50px;
+  }
+  .skills {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .skills .fabBorderBot {
+    border-bottom: none;
+  }
+  .skills li {
+    width: 85px;
+  }
+  .skills i {
+    font-size: 7rem;
+  }
+  .skills .devicon i {
+    font-size: 6.5rem;
+  }
+  .skills .fabPadTop {
+    margin-top: 0;
+  }
+  .eduMain {
+    margin-bottom: 50px;
+  }
+  .navEdu {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navEdu li {
+    margin-bottom: 10px;
+  }
+  .colExperiencesNav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .roles {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .roles li:nth-child(1) {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1080px) {
@@ -1544,6 +1680,341 @@ fieldset {
   .about .aboutMe {
     width: 60%;
     padding-left: 70px;
+  }
+  .myImgResume {
+    max-width: 200px;
+  }
+  .myImgResume .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .resumeNavMain {
+    margin-bottom: 0;
+    margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: reverse;
+            flex-direction: reverse;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .resumeNavMain label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .resumeNavMain .navMainName {
+    width: 50%;
+    text-align: right;
+  }
+  .resumeNavMain .colNav {
+    margin-top: 0;
+  }
+  .navResume {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .colNav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 100px;
+  }
+  .skillsMain {
+    margin-bottom: 50px;
+  }
+  .skills {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .skills .fabBorderBot {
+    border-bottom: none;
+  }
+  .skills li {
+    width: 85px;
+  }
+  .skills i {
+    font-size: 7rem;
+  }
+  .skills .devicon i {
+    font-size: 6.5rem;
+  }
+  .skills .fabPadTop {
+    margin-top: 0;
+  }
+  .eduMain {
+    margin-bottom: 50px;
+  }
+  .navEdu {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .navEdu li {
+    margin-bottom: 10px;
+  }
+  .colExperiencesNav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .roles {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .roles li:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1250px) {
+  .myImgResume {
+    max-width: 250px;
+  }
+  .myImgResume .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .resumeNavMain {
+    margin-bottom: 0;
+    margin-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: reverse;
+            flex-direction: reverse;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .resumeNavMain label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .resumeNavMain .navMainName {
+    width: 43%;
+    text-align: right;
+  }
+  .resumeNavMain .colNav {
+    margin-top: 0;
+  }
+  .navResume {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .colNav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 100px;
+  }
+  .skillsMain {
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  .skills {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .skills .fabBorderBot {
+    border-bottom: none;
+  }
+  .skills li {
+    width: 85px;
+  }
+  .skills i {
+    font-size: 7rem;
+  }
+  .skills .devicon i {
+    font-size: 6.5rem;
+  }
+  .skills .fabPadTop {
+    margin-top: 0;
+  }
+  .eduMain {
+    margin-bottom: 50px;
+  }
+  .navEdu {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .navEdu li {
+    margin-bottom: 10px;
+  }
+  .colExperiencesNav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .roles {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .roles li:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1500px) {
+  .myImgResume {
+    max-width: 250px;
+  }
+  .myImgResume .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .resumeNavMain {
+    margin-bottom: 0;
+    margin-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: reverse;
+            flex-direction: reverse;
+  }
+  .resumeNavMain label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .resumeNavMain .navMainName {
+    width: 35%;
+    text-align: right;
+  }
+  .resumeNavMain .colNav {
+    margin-top: 0;
+  }
+  .navResume {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .colNav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 100px;
+  }
+  .skillsMain {
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+  .myImgResume {
+    max-width: 300px;
+  }
+  .myImgResume .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .resumeNavMain {
+    margin-bottom: 0;
+    margin-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: reverse;
+            flex-direction: reverse;
+  }
+  .resumeNavMain label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .resumeNavMain .navMainName {
+    width: 29%;
+    text-align: right;
+  }
+  .resumeNavMain .colNav {
+    margin-top: 0;
+  }
+  .navResume {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .colNav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 100px;
+  }
+  .skillsMain {
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1800px) {
+  .myImgResume {
+    max-width: 300px;
+  }
+  .myImgResume .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .resumeNavMain {
+    margin-bottom: 0;
+    margin-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: reverse;
+            flex-direction: reverse;
+  }
+  .resumeNavMain label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .resumeNavMain .navMainName {
+    width: 29%;
+    text-align: right;
+  }
+  .resumeNavMain .colNav {
+    margin-top: 0;
+  }
+  .navResume {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .colNav {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 100px;
+  }
+  .skillsMain {
+    margin-top: 150px;
+    margin-bottom: 50px;
   }
 }
 

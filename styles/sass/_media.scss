@@ -160,7 +160,7 @@ input[type=checkbox]:checked ~ #overlay-button {
         margin-bottom: 20px;
     }
 
-    // RESUME PAGE
+    // RESUME PAGE --------------------------------------------
 
     .number {
 	display: none;
@@ -208,12 +208,6 @@ input[type=checkbox]:checked ~ #overlay-button {
         .colNav {
             margin-top: 0;
         }
-
-
-
-
-
-
     }
 
     .navResume {
@@ -272,10 +266,65 @@ input[type=checkbox]:checked ~ #overlay-button {
 
 
 
-// PORTFOLIO PAGE
+// PORTFOLIO PAGE --------------------------------------------
+
+    .myImgPortfolio {
+        max-width: 150px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+
+    }
+
+    .expMainNav {
+        margin-top: 100px;
+    }
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .project4,
+    .project5 {
+    margin-bottom: 50px;
+}
+    
+
+
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width : 461px) and (max-width : 800px) {
@@ -439,10 +488,174 @@ input[type=checkbox]:checked ~ #overlay-button {
 	text-align: center;
 	margin-bottom: 20px;
 }
+
+
+    // RESUME PAGE --------------------------------------------
+
+    .number {
+	display: none;
+    }
+
+    .myImgResume {
+        max-width: 150px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .resumeNavMain {
+        margin-bottom: 0;
+        margin-top: 0;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+
+        label {
+        display: flex;
+        justify-content: flex-end;
+        }
+
+        .navMainName {
+            width: 56%;
+            text-align: left;
+        }
+
+        #overlay {
+            height: 100vh;
+            background: rgba(84, 85, 85, 0.8);
+            z-index: 2;
+            visibility: hidden;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+
+            ul {
+                height: 100vh;
+            }
+        }
+
+        .colNav {
+            margin-top: 0;
+        }
+    }
+
+    .navResume {
+        display: none;
+    }
+
+    .colNav {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    .skillsMain {
+        margin-bottom: 50px;
+    }
+
+    .skills {
+        justify-content: space-evenly;
+    }
+
+    .skills .fabBorderBot {
+        border-bottom: none;
+    }
+
+    .skills li {
+        width: 85px;
+    }
+
+    .skills i {
+        font-size: 7rem;
+    }
+
+    .skills .devicon i {
+	font-size: 6.5rem;
+    }
+
+    .skills .fabPadTop {
+        margin-top: 0;
+}
+
+    .eduMain {
+        margin-bottom: 50px;
+    }
+
+    .navEdu {
+        justify-content: center;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .colExperiencesNav {
+        flex-direction: column;
+    }
+
+    .roles {
+        flex-direction: column;
+        align-items: center;
+
+        li:nth-child(1) {
+            margin-bottom: 10px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width : 801px) and (max-width : 1080px) {
+
 
     .mainContent .myImg {
         max-width: 320px;
@@ -456,7 +669,371 @@ input[type=checkbox]:checked ~ #overlay-button {
 
 
 
+
+    // RESUME PAGE --------------------------------------------
+
+    .myImgResume {
+        max-width: 200px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .resumeNavMain {
+        margin-bottom: 0;
+        margin-top: 30px;
+        flex-direction: reverse;
+        align-items: flex-end;
+
+        label {
+        display: flex;
+        justify-content: flex-end;
+        }
+
+        .navMainName {
+            width: 50%;
+            text-align: right;
+        }
+
+
+        .colNav {
+            margin-top: 0;
+        }
+    }
+
+    .navResume {
+        flex-wrap: wrap;
+    }
+
+    .colNav {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    .skillsMain {
+        margin-bottom: 50px;
+    }
+
+    .skills {
+        justify-content: space-evenly;
+    }
+
+    .skills .fabBorderBot {
+        border-bottom: none;
+    }
+
+    .skills li {
+        width: 85px;
+    }
+
+    .skills i {
+        font-size: 7rem;
+    }
+
+    .skills .devicon i {
+	font-size: 6.5rem;
+    }
+
+    .skills .fabPadTop {
+        margin-top: 0;
 }
+
+    .eduMain {
+        margin-bottom: 50px;
+    }
+
+    .navEdu {
+        justify-content: space-evenly;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .colExperiencesNav {
+        flex-direction: column;
+    }
+
+    .roles {
+        flex-direction: row;
+        align-items: center;
+
+        li:nth-child(1) {
+            margin-bottom: 10px;
+        }
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width : 1081px) and (max-width : 1250px) {
+
+// RESUME PAGE --------------------------------------------
+
+    .myImgResume {
+        max-width: 250px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .resumeNavMain {
+        margin-bottom: 0;
+        margin-top: 50px;
+        flex-direction: reverse;
+        align-items: flex-end;
+
+        label {
+        display: flex;
+        justify-content: flex-end;
+        }
+
+        .navMainName {
+            width: 43%;
+            text-align: right;
+        }
+
+
+        .colNav {
+            margin-top: 0;
+        }
+    }
+
+    .navResume {
+        flex-wrap: wrap;
+    }
+
+    .colNav {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    .skillsMain {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .skills {
+        justify-content: space-evenly;
+    }
+
+    .skills .fabBorderBot {
+        border-bottom: none;
+    }
+
+    .skills li {
+        width: 85px;
+    }
+
+    .skills i {
+        font-size: 7rem;
+    }
+
+    .skills .devicon i {
+	font-size: 6.5rem;
+    }
+
+    .skills .fabPadTop {
+        margin-top: 0;
+}
+
+    .eduMain {
+        margin-bottom: 50px;
+    }
+
+    .navEdu {
+        justify-content: space-evenly;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .colExperiencesNav {
+        flex-direction: column;
+    }
+
+    .roles {
+        flex-direction: row;
+        align-items: center;
+
+        li:nth-child(1) {
+            margin-bottom: 10px;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width : 1251px) and (max-width : 1500px) {
+
+// RESUME PAGE --------------------------------------------
+
+    .myImgResume {
+        max-width: 250px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .resumeNavMain {
+        margin-bottom: 0;
+        margin-top: 50px;
+        flex-direction: reverse;
+
+        label {
+        display: flex;
+        justify-content: flex-end;
+        }
+
+        .navMainName {
+            width: 35%;
+            text-align: right;
+        }
+
+
+        .colNav {
+            margin-top: 0;
+        }
+    }
+
+    .navResume {
+        flex-wrap: wrap;
+    }
+
+    .colNav {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    .skillsMain {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width : 1501px) and (max-width : 1600px) {
+
+// RESUME PAGE --------------------------------------------
+
+    .myImgResume {
+        max-width: 300px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .resumeNavMain {
+        margin-bottom: 0;
+        margin-top: 50px;
+        flex-direction: reverse;
+
+        label {
+        display: flex;
+        justify-content: flex-end;
+        }
+
+        .navMainName {
+            width: 29%;
+            text-align: right;
+        }
+
+
+        .colNav {
+            margin-top: 0;
+        }
+    }
+
+    .navResume {
+        flex-wrap: wrap;
+    }
+
+    .colNav {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    .skillsMain {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width : 1601px) and (max-width : 1800px) {
+
+// RESUME PAGE --------------------------------------------
+
+    .myImgResume {
+        max-width: 300px;
+
+        .row {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .resumeNavMain {
+        margin-bottom: 0;
+        margin-top: 50px;
+        flex-direction: reverse;
+
+        label {
+        display: flex;
+        justify-content: flex-end;
+        }
+        
+        .navMainName {
+            width: 29%;
+            text-align: right;
+        }
+
+        .colNav {
+            margin-top: 0;
+        }
+    }
+
+    .navResume {
+        flex-wrap: wrap;
+    }
+
+    .colNav {
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    .skillsMain {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-height : 1109px) {
