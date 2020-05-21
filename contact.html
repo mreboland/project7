@@ -156,7 +156,8 @@
                     </div>
 
                     <div class="formMain">
-                        <form action="https://formspree.io/xyynkjnj" method="POST">
+                        <form name="contactForm" data-netlify="true" method="POST">
+                            <!-- action="https://formspree.io/xyynkjnj" -->
 
                             <fieldset class="formAbout">
                                 <label>
@@ -188,9 +189,8 @@
                                 </label>
                             </fieldset>
                         
-                            <!-- your other form fields go here -->
                             <div class="formButton">
-                                <button type="submit">SUBMIT</button>
+                                <button id="sendMessage" type="submit">SUBMIT</button>
                                 <p>Fields marked with * are required</p>
                             </div>
                         </form>
@@ -234,6 +234,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>

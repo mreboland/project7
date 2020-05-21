@@ -304,6 +304,47 @@ input[type=checkbox]:checked ~ #overlay-button {
         margin-top: 100px;
     }
 
+    .contactMain {
+        margin-top: 100px;
+    }
+
+    .formAbout {
+        flex-direction: column;
+
+        label {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+
+    .formMisc {
+        flex-direction: column;
+
+        label {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+
+    .formMsg {
+        margin-bottom: 10px;
+    }
+
+    .formButton {
+        flex-direction: column-reverse;
+
+        button {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        p {
+            width: 100%;
+            text-align: left;
+            margin-left: 0;
+        }
+    }
+
 }
 
 
@@ -625,6 +666,35 @@ input[type=checkbox]:checked ~ #overlay-button {
 
     .aboutMeMain {
         margin-top: 100px;
+    }
+
+
+    // ABOUT PAGE --------------------------------------------
+
+    .aboutMeMain {
+        margin-top: 100px;
+    }
+
+    .contactMain {
+        margin-top: 100px;
+    }
+
+    .formAbout {
+        flex-direction: column;
+
+        label {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+
+    .formMisc {
+        flex-direction: column;
+
+        label {
+            width: 100%;
+            margin-bottom: 10px;
+        }
     }
     
 }
@@ -1239,19 +1309,6 @@ input[type=checkbox]:checked ~ #overlay-button {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

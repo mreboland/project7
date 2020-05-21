@@ -306,3 +306,19 @@ $(".resumeYear").on("click", function() {
 })
 
 // Portfolio
+
+//Contact Me
+
+// let message = "";
+
+// $("#sendMessage").on("click", function () {
+//     message = $("#contactForm").serialize();
+//     $.ajax({
+//         url: "https://formspree.io/xyynkjnj",
+//         method: "POST",
+//         data: { message: message },
+//         dataType: "json"
+//     });
+//     alert('Thanks for the email, we\'ll be in touch promptly.');
+//     return false;
+// });

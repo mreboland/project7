@@ -1386,6 +1386,47 @@ fieldset {
   .aboutMeMain {
     margin-top: 100px;
   }
+  .contactMain {
+    margin-top: 100px;
+  }
+  .formAbout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formAbout label {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .formMisc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formMisc label {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .formMsg {
+    margin-bottom: 10px;
+  }
+  .formButton {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .formButton button {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .formButton p {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+  }
 }
 
 @media only screen and (min-width: 461px) and (max-width: 800px) {
@@ -1704,6 +1745,32 @@ fieldset {
   }
   .aboutMeMain {
     margin-top: 100px;
+  }
+  .aboutMeMain {
+    margin-top: 100px;
+  }
+  .contactMain {
+    margin-top: 100px;
+  }
+  .formAbout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formAbout label {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .formMisc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formMisc label {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 
