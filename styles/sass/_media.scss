@@ -280,6 +280,17 @@ input[type=checkbox]:checked ~ #overlay-button {
         margin-top: 100px;
     }
 
+    .colPortfolioNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+
+        .colouredText {
+            margin-left: 0;
+        }
+}
+
     .project1,
     .project2,
     .project3,
@@ -638,6 +649,17 @@ input[type=checkbox]:checked ~ #overlay-button {
     .expMainNav {
         margin-top: 100px;
     }
+
+    .colPortfolioNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+
+        .colouredText {
+            margin-left: 0;
+        }
+}
 
     .project1,
     .project2,

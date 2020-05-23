@@ -575,6 +575,18 @@ a:hover {
   margin: 0;
 }
 
+.colPortfolioNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .portfolioGallery {
   margin-bottom: 100px;
 }
@@ -1394,6 +1406,24 @@ fieldset {
   .expMainNav {
     margin-top: 100px;
   }
+  .colPortfolioNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .colPortfolioNav .colouredText {
+    margin-left: 0;
+  }
   .project1 .row,
   .project2 .row,
   .project3 .row,
@@ -1748,6 +1778,24 @@ fieldset {
   }
   .expMainNav {
     margin-top: 100px;
+  }
+  .colPortfolioNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .colPortfolioNav .colouredText {
+    margin-left: 0;
   }
   .project1 .row,
   .project2 .row,
