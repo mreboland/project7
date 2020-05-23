@@ -11,7 +11,18 @@
 .colPortfolioNav {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+    align-items: center;
+    
+    li button {
+        background-color: transparent;
+        border: none;
+        color: #ffffff;
+        outline: none;
+    }
+}
+
+.colPortfolioNav .nav button:hover {
+    color: #E69C37;
 }
 
 .portfolioGallery {

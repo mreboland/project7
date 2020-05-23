@@ -587,6 +587,17 @@ a:hover {
           align-items: center;
 }
 
+.colPortfolioNav li button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  outline: none;
+}
+
+.colPortfolioNav .nav button:hover {
+  color: #E69C37;
+}
+
 .portfolioGallery {
   margin-bottom: 100px;
 }
