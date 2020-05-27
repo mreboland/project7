@@ -623,7 +623,7 @@ a:focus {
 
 .portfolioGallery li {
   position: relative;
-  width: 355px;
+  width: 350px;
 }
 
 .portfolioGallery .row {
@@ -1468,6 +1468,11 @@ fieldset {
   .project5 {
     margin-bottom: 50px;
   }
+  .portfolioGallery ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .aboutMeMain {
     margin-top: 100px;
   }
@@ -1837,8 +1842,10 @@ fieldset {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-  .project4,
-  .project5 {
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
     margin-bottom: 50px;
   }
   .portfolioGallery ul {
@@ -1992,8 +1999,9 @@ fieldset {
   }
   .project1,
   .project2,
-  .project3 {
-    margin-bottom: 0;
+  .project3,
+  .project4 {
+    margin-bottom: 50px;
   }
   .project1 .row,
   .project2 .row,
@@ -2005,9 +2013,8 @@ fieldset {
         flex-wrap: nowrap;
   }
   .portfolioGallery ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .aboutMeMain {
     margin-top: 100px;
@@ -2124,11 +2131,6 @@ fieldset {
   .expMainNav {
     margin-top: 100px;
   }
-  .project1,
-  .project2,
-  .project3 {
-    margin-bottom: 0;
-  }
   .project1 .row,
   .project2 .row,
   .project3 .row,
@@ -2139,9 +2141,8 @@ fieldset {
         flex-wrap: nowrap;
   }
   .portfolioGallery ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .aboutMeMain {
     margin-top: 150px;
@@ -2206,11 +2207,6 @@ fieldset {
   .expMainNav {
     margin-top: 100px;
   }
-  .project1,
-  .project2,
-  .project3 {
-    margin-bottom: 0;
-  }
   .project1 .row,
   .project2 .row,
   .project3 .row,
@@ -2221,9 +2217,9 @@ fieldset {
         flex-wrap: nowrap;
   }
   .portfolioGallery ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .aboutMeMain {
     margin-top: 150px;
@@ -2288,11 +2284,6 @@ fieldset {
   .expMainNav {
     margin-top: 100px;
   }
-  .project1,
-  .project2,
-  .project3 {
-    margin-bottom: 0;
-  }
   .project1 .row,
   .project2 .row,
   .project3 .row,
@@ -2303,9 +2294,9 @@ fieldset {
         flex-wrap: nowrap;
   }
   .portfolioGallery ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .aboutMeMain {
     margin-top: 150px;
@@ -2370,11 +2361,6 @@ fieldset {
   .expMainNav {
     margin-top: 100px;
   }
-  .project1,
-  .project2,
-  .project3 {
-    margin-bottom: 0;
-  }
   .project1 .row,
   .project2 .row,
   .project3 .row,
@@ -2385,9 +2371,9 @@ fieldset {
         flex-wrap: nowrap;
   }
   .portfolioGallery ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .aboutMeMain {
     margin-top: 150px;
