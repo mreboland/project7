@@ -1596,7 +1596,7 @@ fieldset {
   }
   #overlay {
     height: 100vh;
-    width: 89%;
+    width: 90%;
     background: rgba(84, 85, 85, 0.8);
     z-index: 2;
     visibility: hidden;
@@ -1906,9 +1906,6 @@ fieldset {
     -webkit-box-direction: reverse;
         -ms-flex-direction: reverse;
             flex-direction: reverse;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
   }
   .resumeNavMain label {
     display: -webkit-box;
@@ -2036,9 +2033,6 @@ fieldset {
     -webkit-box-direction: reverse;
         -ms-flex-direction: reverse;
             flex-direction: reverse;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
   }
   .resumeNavMain label {
     display: -webkit-box;
