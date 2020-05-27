@@ -1,3 +1,18 @@
+@supports (-webkit-appearance:none) and (not (overflow:-webkit-marquee)) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) {    
+    
+    .formAbout,
+    .formMisc {
+        display: block;
+    }
+
+    .formAbout label,
+    .formMisc label {
+        width: 32.9%;
+    }
+
+}
+
+
 @media only screen and (min-width : 320px) and (max-width : 460px) {
 
 
@@ -881,6 +896,12 @@ input[type=checkbox]:checked ~ #overlay-button {
         margin-top: 100px;
     }
 
+    // CONTACT PAGE --------------------------------------------
+
+    .formAbout, .formMisc {
+        // display: flex;
+    }
+
 
 }
 
@@ -1345,15 +1366,6 @@ input[type=checkbox]:checked ~ #overlay-button {
 
 }
 
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
- .formAbout,
- .formMisc {
-     display: block;
- }
-
-
-}
 
 
 

@@ -1072,7 +1072,7 @@ fieldset {
 }
 
 .formAbout label {
-  width: 33%;
+  width: 32%;
 }
 
 .formAbout label input {
@@ -1098,7 +1098,7 @@ fieldset {
 }
 
 .formMisc label {
-  width: 33%;
+  width: 32%;
 }
 
 .formMisc label input {
@@ -1137,6 +1137,17 @@ fieldset {
 
 .footerContact {
   padding-top: 50px;
+}
+
+@supports (-webkit-appearance: none) and (not (overflow: -webkit-marquee)) and (not (-ms-ime-align: auto)) and (not (-moz-appearance: none)) {
+  .formAbout,
+  .formMisc {
+    display: block;
+  }
+  .formAbout label,
+  .formMisc label {
+    width: 32.9%;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 460px) {
@@ -2384,12 +2395,5 @@ fieldset {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-  }
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  .formAbout,
-  .formMisc {
-    display: block;
   }
 }
