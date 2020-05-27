@@ -894,6 +894,8 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .colExperiencesNav button {
@@ -1967,12 +1969,6 @@ fieldset {
   .navEdu li {
     margin-bottom: 10px;
   }
-  .colExperiencesNav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
   .roles {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2094,12 +2090,6 @@ fieldset {
   }
   .navEdu li {
     margin-bottom: 10px;
-  }
-  .colExperiencesNav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .roles {
     -webkit-box-orient: horizontal;

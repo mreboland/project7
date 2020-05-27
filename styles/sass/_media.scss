@@ -844,10 +844,6 @@ input[type=checkbox]:checked ~ #overlay-button {
         }
     }
 
-    .colExperiencesNav {
-        flex-direction: column;
-    }
-
     .roles {
         flex-direction: row;
         align-items: center;
@@ -995,10 +991,6 @@ input[type=checkbox]:checked ~ #overlay-button {
         li {
             margin-bottom: 10px;
         }
-    }
-
-    .colExperiencesNav {
-        flex-direction: column;
     }
 
     .roles {
