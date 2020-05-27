@@ -100,6 +100,14 @@ a:hover {
     text-decoration: none;
 }
 
+a:focus {
+    color:#e69c37;
+    outline: none;
+}
+
+
+
+
 .colourHighlight {
 	height: 10px;
 	border: 2px solid #e69c37;
