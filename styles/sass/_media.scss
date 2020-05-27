@@ -1346,6 +1346,16 @@ input[type=checkbox]:checked ~ #overlay-button {
 }
 
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .formAbout,
+ .formMisc {
+     display: block;
+ }
+
+
+}
+
+
 
 
 
