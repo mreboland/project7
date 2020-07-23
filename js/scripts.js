@@ -44,7 +44,7 @@ $(".resumeYear").on("click", function() {
                         <i class="fas fa-pencil-alt colouredText"></i>
                     </div>
                     <div>
-                        <h3>Opertations Associate</h3>
+                        <h3>Operations Associate</h3>
                         <p class="colouredText">Focus Asset Management</p>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ $(".resumeYear").on("click", function() {
                         <i class="fas fa-pencil-alt colouredText"></i>
                     </div>
                     <div>
-                        <h3>Opertations Associate</h3>
+                        <h3>Operations Associate</h3>
                         <p class="colouredText">Focus Asset Management</p>
                     </div>
                 </div>
