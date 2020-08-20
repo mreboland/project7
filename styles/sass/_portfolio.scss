@@ -27,6 +27,7 @@
 
 .portfolioGallery {
     margin-bottom: 100px;
+    height: 750px;
 }
 
 .portfolioGallery ul {
@@ -34,6 +35,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.portGalSelect {
+    justify-content: space-evenly !important;
+
+    .project1,
+    .project2,
+    .project3 {
+        margin-bottom: 0px !important;
+    }
 }
 
 .portfolioGallery li {
@@ -85,6 +96,7 @@
     display: block;
 }
 
+
 .project1,
 .project2,
 .project3 {
@@ -97,7 +109,7 @@
     background-color: transparent;
     border: 1px solid #E69C37;
     border-radius: 3px;
-    padding: 5px 10px;
+    padding: 0px 10px;
     top: 100px;
     left: 40px;
 
@@ -108,6 +120,25 @@
     background-color: rgba(230, 156, 55, 0.5);
     border-radius: 5px;
     text-decoration: none;
+}
+
+.portfolioDetails {
+    position: absolute;
+    width: 350px;
+    bottom: 0px;
+    height: 175px;
+    background-image: linear-gradient(0deg, rgba(84, 85, 85, 0) 0%, #303030 200%);
+    
+    
+    div {
+        padding-left: 30px;
+        padding-top: 80px;
+        // background-image: linear-gradient(0deg, rgba(84, 85, 85, 0.1) 0%, #303030 60%);
+
+        p {
+            color: #E69C37;
+        }
+    }
 }
 
 .followPort {
