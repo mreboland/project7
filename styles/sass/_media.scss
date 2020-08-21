@@ -311,16 +311,22 @@ input[type=checkbox]:checked ~ #overlay-button {
     .project3,
     .project4,
     .project5,
-    .project6 {
+    .project6,
+    .project2React {
 
         .row {
             flex-wrap: nowrap;
         }
     }
-
+    .project1,
+    .project3,
     .project4,
     .project5 {
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
+}
+
+.portfolioGallery {
+    max-height: 2750px;
 }
 
     .portfolioGallery ul {
@@ -685,7 +691,8 @@ input[type=checkbox]:checked ~ #overlay-button {
     .project3,
     .project4,
     .project5,
-    .project6 {
+    .project6,
+    .project2React {
 
         .row {
             flex-wrap: nowrap;
@@ -697,7 +704,11 @@ input[type=checkbox]:checked ~ #overlay-button {
     .project3,
     .project4,
     .project5 {
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
+}
+
+.portfolioGallery {
+    max-height: 2750px;
 }
 
 .portfolioGallery ul {
@@ -881,12 +892,17 @@ input[type=checkbox]:checked ~ #overlay-button {
     .project3,
     .project4,
     .project5,
-    .project6 {
+    .project6,
+    .project2React {
 
         .row {
             flex-wrap: nowrap;
         }
     }
+
+.portfolioGallery {
+    max-height: 1550px;
+}
 
 .portfolioGallery ul {
 	justify-content: space-around;
@@ -1029,6 +1045,10 @@ input[type=checkbox]:checked ~ #overlay-button {
 .portfolioGallery ul {
 	justify-content: space-around;
 
+}
+
+.portfolioGallery {
+    max-height: 1550px;
 }
 
 // ABOUT PAGE --------------------------------------------
